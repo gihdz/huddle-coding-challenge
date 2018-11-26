@@ -18,7 +18,7 @@ export default () => {
     <Flex
       css={{ height: "100px" }}
       as="header"
-      px="50px"
+      px="30px"
       alignItems="center"
       flexWrap="wrap"
     >
