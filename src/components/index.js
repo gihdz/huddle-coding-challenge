@@ -1,4 +1,5 @@
 import Header from "./Header";
 import Hero from "./Hero";
+import GrowTogetherSection from "./GrowTogetherSection";
 
-export { Header, Hero };
+export { Header, Hero, GrowTogetherSection };

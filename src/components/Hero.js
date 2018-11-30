@@ -37,7 +37,7 @@ const StatisticsContainer = styled(Flex)`
 
 export default () => {
   return (
-    <Box css={{ textAlign: "center" }}>
+    <Box css={{ textAlign: "center" }} mb="70px">
       <Text as="h1" color="darkCyan">
         Build The Community Your Fans Will Love
       </Text>

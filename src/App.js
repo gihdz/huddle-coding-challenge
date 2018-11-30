@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { ThemeProvider } from "styled-components";
 import "./App.css";
-import { Header, Hero } from "./components/";
+import { Header, Hero, GrowTogetherSection } from "./components/";
 import { theme } from "./utils/";
 class App extends Component {
   render() {
@@ -10,6 +10,7 @@ class App extends Component {
         <main>
           <Header />
           <Hero />
+          <GrowTogetherSection />
         </main>
       </ThemeProvider>
     );

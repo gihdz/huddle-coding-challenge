@@ -1,5 +1,11 @@
 import styled from "styled-components";
-import { color, fontSize, fontWeight, fontFamily } from "styled-system";
+import {
+  color,
+  fontSize,
+  fontWeight,
+  fontFamily,
+  textAlign
+} from "styled-system";
 import { Box } from "@rebass/grid";
 
 export default styled(Box)`
@@ -7,4 +13,5 @@ export default styled(Box)`
   ${fontSize}
   ${fontWeight}
   ${fontFamily}
+  ${textAlign}
 `;
