@@ -20,7 +20,7 @@ export default () => {
       <StyledSectionContent
         alignItems="center"
         flexWrap="wrap"
-        py={["80px", "30px"]}
+        py={["120px", "110px"]}
       >
         <Box
           flex={["1 0 100%", "1"]}
