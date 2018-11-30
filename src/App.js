@@ -6,7 +6,8 @@ import {
   Hero,
   GrowTogetherSection,
   FlowingConversationsSection,
-  YourUsersSection
+  YourUsersSection,
+  BuildYourCommunitySection
 } from "./components/";
 import { theme } from "./utils/";
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
           <GrowTogetherSection />
           <FlowingConversationsSection />
           <YourUsersSection />
+          <BuildYourCommunitySection />
         </main>
       </ThemeProvider>
     );

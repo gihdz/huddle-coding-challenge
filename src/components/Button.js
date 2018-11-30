@@ -22,6 +22,7 @@ const Button = styled(Box)`
   border-radius: ${props => borderRadius[props.borderRadius]};
   cursor: pointer;
   font-weight: 600;
+  opacity: 0.7;
 `;
 
 Button.defaultProps = {
