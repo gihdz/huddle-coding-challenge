@@ -7,7 +7,8 @@ import {
   GrowTogetherSection,
   FlowingConversationsSection,
   YourUsersSection,
-  BuildYourCommunitySection
+  BuildYourCommunitySection,
+  Footer
 } from "./components/";
 import { theme } from "./utils/";
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
           <FlowingConversationsSection />
           <YourUsersSection />
           <BuildYourCommunitySection />
+          <Footer />
         </main>
       </ThemeProvider>
     );

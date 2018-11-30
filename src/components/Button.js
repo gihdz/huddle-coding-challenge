@@ -4,7 +4,7 @@ import { Box } from "@rebass/grid";
 
 const size = {
   small: "5px 20px",
-  medium: "5px 30px",
+  medium: "10px 30px",
   large: "16px 60px"
 };
 
@@ -22,7 +22,6 @@ const Button = styled(Box)`
   border-radius: ${props => borderRadius[props.borderRadius]};
   cursor: pointer;
   font-weight: 600;
-  opacity: 0.7;
 `;
 
 Button.defaultProps = {
