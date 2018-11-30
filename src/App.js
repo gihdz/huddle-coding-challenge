@@ -1,7 +1,12 @@
 import React, { Component } from "react";
 import { ThemeProvider } from "styled-components";
 import "./App.css";
-import { Header, Hero, GrowTogetherSection } from "./components/";
+import {
+  Header,
+  Hero,
+  GrowTogetherSection,
+  FlowingConversationsSection
+} from "./components/";
 import { theme } from "./utils/";
 class App extends Component {
   render() {
@@ -11,6 +16,7 @@ class App extends Component {
           <Header />
           <Hero />
           <GrowTogetherSection />
+          <FlowingConversationsSection />
         </main>
       </ThemeProvider>
     );
