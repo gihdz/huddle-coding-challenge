@@ -21,6 +21,7 @@ export default () => {
       px="30px"
       alignItems="center"
       flexWrap="wrap"
+      mb="90px"
     >
       <Box flex="auto">
         <Logo />

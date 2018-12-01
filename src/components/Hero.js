@@ -38,15 +38,17 @@ const StatisticsContainer = styled(Flex)`
 export default () => {
   return (
     <Box css={{ textAlign: "center" }} mb="70px">
-      <Text as="h1" color="darkCyan">
-        Build The Community Your Fans Will Love
-      </Text>
-      <HeroDescription as="p" mb="35px">
-        Huddle re-imagines the way we build communities. You have a voice, but
-        so does your audience. Create connections with your users as you engage
-        in genuine discussion.
-      </HeroDescription>
-      <Button mb="60px" type="button">
+      <Box px="15px">
+        <Text as="h1" color="darkCy.an">
+          Build The Community Your Fans Will Love
+        </Text>
+        <HeroDescription as="p" mb={["50px", "35px"]}>
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </HeroDescription>
+      </Box>
+      <Button mb={["100px", "60px"]} type="button">
         Get Started For Free
       </Button>
       <ScreenMockupsContainer mb={["120px", null, "75px"]}>
