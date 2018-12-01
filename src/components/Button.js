@@ -18,7 +18,7 @@ const Button = styled(Box)`
   border-radius: 20px;
   padding: ${props => size[props.size]};
   background-color: ${props => props.theme.colors.pink};
-  color: #fff;
+  color: ${props => props.theme.colors.paleBlue};
   border-radius: ${props => borderRadius[props.borderRadius]};
   cursor: pointer;
   font-weight: 600;

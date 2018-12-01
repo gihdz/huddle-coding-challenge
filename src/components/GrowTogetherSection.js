@@ -51,7 +51,7 @@ export default () => {
         <Box order={[1, 0]} flex={["1 0 100%", "1"]}>
           <Box mx="auto" css={{ maxWidth: "350px" }}>
             <Text textAlign={["center", "left"]} px={[0, "20px"]}>
-              <Text fontSize="26px" mb="15px" fontWeight="700">
+              <Text as="h2" fontSize="26px" mb="15px" fontWeight="700">
                 Grow Together
               </Text>
               <Text fontSize="14px">

@@ -45,7 +45,7 @@ export default () => {
             }}
           >
             <Text textAlign={["center", "left"]} px={[0, "20px"]}>
-              <Text fontSize="26px" mb="15px" fontWeight="700">
+              <Text as="h2" fontSize="26px" mb="15px" fontWeight="700">
                 Flowing Conversations{" "}
               </Text>{" "}
               <Text fontSize="14px">

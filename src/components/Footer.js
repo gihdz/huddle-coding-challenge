@@ -18,7 +18,7 @@ const StyledSectionContent = styled(Flex)`
 
 const StyledSection = styled(Box)`
   background-color: #00252e;
-  color: #fff;
+  color: ${props => props.theme.colors.paleBlue};
 `;
 
 const SectionImgTopBottom = styled.div`
@@ -50,7 +50,9 @@ const ContactItem = ({ icon, text }) => {
         <img width="12" src={icon} alt="" />
       </Box>
       <Box>
-        <Text fontSize="10px">{text}</Text>
+        <Text color="paleBlue" fontSize="10px">
+          {text}
+        </Text>
       </Box>
     </Flex>
   );
@@ -82,7 +84,7 @@ export default () => {
             <Box mb="20px">
               <Logo forFooter />
             </Box>
-            <Text fontSize="12px" mb="15px">
+            <Text color="paleBlue" fontSize="12px" mb="15px">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
               molestias aliquid tenetur ipsum exercitationem officiis laudantium
               a consequatur libero dolores.
@@ -100,10 +102,15 @@ export default () => {
         </Box>
         <Box flex={["1 0 100%", null, "1"]} mb={["90px", null, 0]}>
           <Box width={["250px", null, "100%"]}>
-            <Text fontWeight="600" mb="18px">
+            <Text color="paleBlue" fontWeight="600" mb="18px">
               NEWSLETTER
             </Text>
-            <Text fontSize="12px" mb="20px" width={["100%", null, "240px"]}>
+            <Text
+              color="paleBlue"
+              fontSize="12px"
+              mb="20px"
+              width={["100%", null, "240px"]}
+            >
               To receive tips on how to grow your community, sign up to our
               weekly newsletter, We'll never send you spam or pass on your email
               address

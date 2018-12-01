@@ -8,7 +8,7 @@ import {
 } from "styled-system";
 import { Box } from "@rebass/grid";
 
-export default styled(Box)`
+export default styled(Box).attrs({ color: props => props.color || "darkCyan" })`
   ${color}
   ${fontSize}
   ${fontWeight}

@@ -18,7 +18,7 @@ export default () => {
   return (
     <StyledSection as="section">
       <StyledSectionContent py={["120px", "110px"]}>
-        <Text fontWeight="700" fontSize="22px" mb="25px">
+        <Text as="h2" fontWeight="700" fontSize="22px" mb="25px">
           Ready To Build Your Community?
         </Text>
         <Button>Get Started For Free</Button>

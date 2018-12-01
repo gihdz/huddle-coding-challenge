@@ -39,7 +39,7 @@ export default () => {
   return (
     <Box css={{ textAlign: "center" }} mb="70px">
       <Box px="15px">
-        <Text as="h1" color="darkCy.an">
+        <Text as="h1" color="darkCyan">
           Build The Community Your Fans Will Love
         </Text>
         <HeroDescription as="p" mb={["50px", "35px"]}>
@@ -72,7 +72,9 @@ export default () => {
             <Text mb="12px" fontWeight="700" fontSize="60px">
               1.4k+
             </Text>
-            <Text fontSize="16px">Communities Formed</Text>
+            <Text color="lightgray" fontSize="16px">
+              Communities Formed
+            </Text>
           </StatisticItem>
         </Box>
         <Box width={[1, null, 1 / 2]}>
@@ -83,7 +85,9 @@ export default () => {
             <Text mb="12px" fontWeight="700" fontSize="60px">
               2.7m+
             </Text>
-            <Text fontSize="16px">Messages Sent</Text>
+            <Text color="lightgray" fontSize="16px">
+              Messages Sent
+            </Text>
           </StatisticItem>
         </Box>
       </StatisticsContainer>
