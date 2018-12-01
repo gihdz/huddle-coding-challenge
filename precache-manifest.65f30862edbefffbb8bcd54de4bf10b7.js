@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/huddle-coding-challenge/static/media/bg-section-bottom-mobile-1.6ef9dec4.svg"
   },
   {
-    "revision": "33c6e85071550a4130a9",
+    "revision": "1c494ffc5d2c76a2c3a4",
     "url": "/huddle-coding-challenge/static/css/main.cba31f96.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/huddle-coding-challenge/static/media/bg-section-bottom-desktop-1.3bd921c0.svg"
   },
   {
-    "revision": "33c6e85071550a4130a9",
-    "url": "/huddle-coding-challenge/static/js/main.33c6e850.chunk.js"
+    "revision": "1c494ffc5d2c76a2c3a4",
+    "url": "/huddle-coding-challenge/static/js/main.1c494ffc.chunk.js"
   },
   {
     "revision": "6641e825f006d463db7028607e3ee994",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/huddle-coding-challenge/static/media/bg-footer-top-mobile.144da12e.svg"
   },
   {
-    "revision": "363f00e4e74601f7978ad25bd429914c",
+    "revision": "e488b2c4348fba0ab8633846afb14e99",
     "url": "/huddle-coding-challenge/index.html"
   }
 ];
