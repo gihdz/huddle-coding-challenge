@@ -1,7 +1,7 @@
 {
   "main.css": "/huddle-coding-challenge/static/css/main.cba31f96.chunk.css",
-  "main.js": "/huddle-coding-challenge/static/js/main.8df10219.chunk.js",
-  "main.js.map": "/huddle-coding-challenge/static/js/main.8df10219.chunk.js.map",
+  "main.js": "/huddle-coding-challenge/static/js/main.33c6e850.chunk.js",
+  "main.js.map": "/huddle-coding-challenge/static/js/main.33c6e850.chunk.js.map",
   "static/js/1.b828403e.chunk.js": "/huddle-coding-challenge/static/js/1.b828403e.chunk.js",
   "static/js/1.b828403e.chunk.js.map": "/huddle-coding-challenge/static/js/1.b828403e.chunk.js.map",
   "runtime~main.js": "/huddle-coding-challenge/static/js/runtime~main.ea83bdd4.js",
@@ -26,6 +26,6 @@
   "static/media/bg-footer-top-mobile.svg": "/huddle-coding-challenge/static/media/bg-footer-top-mobile.144da12e.svg",
   "static/css/main.cba31f96.chunk.css.map": "/huddle-coding-challenge/static/css/main.cba31f96.chunk.css.map",
   "index.html": "/huddle-coding-challenge/index.html",
-  "precache-manifest.1bc01697928e6478fce4a3aa76232ec8.js": "/huddle-coding-challenge/precache-manifest.1bc01697928e6478fce4a3aa76232ec8.js",
+  "precache-manifest.7520b7da7c994738cde28a3a8e59bed6.js": "/huddle-coding-challenge/precache-manifest.7520b7da7c994738cde28a3a8e59bed6.js",
   "service-worker.js": "/huddle-coding-challenge/service-worker.js"
 }

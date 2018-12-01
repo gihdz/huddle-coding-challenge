@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/huddle-coding-challenge/precache-manifest.1bc01697928e6478fce4a3aa76232ec8.js"
+  "/huddle-coding-challenge/precache-manifest.7520b7da7c994738cde28a3a8e59bed6.js"
 );
 
 workbox.clientsClaim();
