@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/huddle-coding-challenge/static/media/bg-footer-top-mobile.144da12e.svg"
   },
   {
-    "revision": "f5638e0388d389eba2029f22d8d74608",
+    "revision": "d42c55b3a35905f475bba16fa7c18644",
     "url": "/huddle-coding-challenge/index.html"
   }
 ];
